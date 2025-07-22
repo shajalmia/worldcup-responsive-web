@@ -1,3 +1,154 @@
-h1{
-    color:red;
+/* Font Family */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Styles */
+.button {
+  height: 57px;
+  width: 252px;
+  background-color: #dd0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+.button2 {
+  height: 64px;
+  width: 252px;
+  color: #161616;
+  background-color: #ffffff;
+  padding: 17px 39px;
+  border: none;
+  border-radius: 8px;
+}
+
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #161616;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  box-sizing: border-box;
+}
+.banner-info {
+  margin-left: 7rem;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+  margin-bottom: 2px;
+  line-height: 1.2;
+  /* display: inline; */
+  margin-top: 0px;
+}
+.banner-description {
+  margin-top: 2px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: left;
+  max-width: 90%;
+}
+/* .banner-button{
+    padding: 20px;
+} */
+
+.banner-image {
+  /* padding-top: 20px; */
+  margin-top: 20px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+/* Main Styles */
+
+.upcoming-matches {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #161616;
+  height: 312px;
+  width: 312px;
+  border-radius: 8px;
+}
+/* Card Styles */
+
+.card {
+  height: 362px;
+  width: 312px;
+
+  /* background-color: #E8E8E8; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px;
+}
+.card-image {
+  height: 175px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-btn {
+  width: 100px;
+  height: 32px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  /* border: none; */
+}
+.card-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.icon-container {
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+}
+.left-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.right-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.upcoming-matches {
+  display: flex;
+  gap: 60px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
+  margin-bottom: 100px;
 }
